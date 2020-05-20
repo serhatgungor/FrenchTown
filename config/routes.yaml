@@ -1,0 +1,8 @@
+home:
+  path: /
+  controller: App\controller\home.html.twig
+
+
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
