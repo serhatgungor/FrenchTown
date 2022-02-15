@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d9f541357172628b8f0e0ff660f97098",
+    "content-hash": "3eb1f7d1f6780e48082ee59cdd859118",
     "packages": [
         {
             "name": "api-platform/core",
@@ -2465,7 +2465,6 @@
         },
         {
             "name": "psr/container",
-<<<<<<< HEAD
             "version": "1.1.2",
             "source": {
                 "type": "git",
@@ -2480,22 +2479,6 @@
             },
             "require": {
                 "php": ">=7.4.0"
-=======
-            "version": "1.1.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/php-fig/container.git",
-                "reference": "8622567409010282b7aeebe4bb841fe98b58dcaf"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/container/zipball/8622567409010282b7aeebe4bb841fe98b58dcaf",
-                "reference": "8622567409010282b7aeebe4bb841fe98b58dcaf",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=7.2.0"
->>>>>>> cf7480ebee2e9915fc8075301586756e2be22f53
             },
             "type": "library",
             "autoload": {
@@ -2522,15 +2505,11 @@
                 "container-interop",
                 "psr"
             ],
-<<<<<<< HEAD
             "support": {
                 "issues": "https://github.com/php-fig/container/issues",
                 "source": "https://github.com/php-fig/container/tree/1.1.2"
             },
             "time": "2021-11-05T16:50:12+00:00"
-=======
-            "time": "2021-03-05T17:36:06+00:00"
->>>>>>> cf7480ebee2e9915fc8075301586756e2be22f53
         },
         {
             "name": "psr/event-dispatcher",
@@ -6276,6 +6255,80 @@
             "time": "2020-06-18T21:17:00+00:00"
         },
         {
+            "name": "symfony/proxy-manager-bridge",
+            "version": "v5.0.11",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/proxy-manager-bridge.git",
+                "reference": "c9279782d3282fe69aff55dbe8d24939cac88f57"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/proxy-manager-bridge/zipball/c9279782d3282fe69aff55dbe8d24939cac88f57",
+                "reference": "c9279782d3282fe69aff55dbe8d24939cac88f57",
+                "shasum": ""
+            },
+            "require": {
+                "ocramius/proxy-manager": "~2.1",
+                "php": ">=7.2.5",
+                "symfony/dependency-injection": "^5.0"
+            },
+            "conflict": {
+                "zendframework/zend-eventmanager": "2.6.0"
+            },
+            "require-dev": {
+                "symfony/config": "^4.4|^5.0"
+            },
+            "type": "symfony-bridge",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "5.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Bridge\\ProxyManager\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony ProxyManager Bridge",
+            "homepage": "https://symfony.com",
+            "support": {
+                "source": "https://github.com/symfony/proxy-manager-bridge/tree/5.0"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2020-05-20T17:38:26+00:00"
+        },
+        {
             "name": "symfony/routing",
             "version": "v5.0.11",
             "source": {
@@ -6470,7 +6523,6 @@
         },
         {
             "name": "symfony/security-core",
-<<<<<<< HEAD
             "version": "v5.0.11",
             "source": {
                 "type": "git",
@@ -6481,28 +6533,11 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/security-core/zipball/4e4c76fcb091e35aca0601fc337f0c2cf76885ab",
                 "reference": "4e4c76fcb091e35aca0601fc337f0c2cf76885ab",
-=======
-            "version": "v5.1.11",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/security-core.git",
-                "reference": "33a6d376ef0502f18bc498a076590372685f6e89"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/security-core/zipball/33a6d376ef0502f18bc498a076590372685f6e89",
-                "reference": "33a6d376ef0502f18bc498a076590372685f6e89",
->>>>>>> cf7480ebee2e9915fc8075301586756e2be22f53
                 "shasum": ""
             },
             "require": {
                 "php": ">=7.2.5",
-<<<<<<< HEAD
-=======
-                "symfony/deprecation-contracts": "^2.1",
->>>>>>> cf7480ebee2e9915fc8075301586756e2be22f53
                 "symfony/event-dispatcher-contracts": "^1.1|^2",
-                "symfony/polyfill-php80": "^1.15",
                 "symfony/service-contracts": "^1.1.6|^2"
             },
             "conflict": {
@@ -6517,7 +6552,6 @@
                 "symfony/expression-language": "^4.4|^5.0",
                 "symfony/http-foundation": "^4.4|^5.0",
                 "symfony/ldap": "^4.4|^5.0",
-                "symfony/translation": "^4.4|^5.0",
                 "symfony/validator": "^4.4|^5.0"
             },
             "suggest": {
@@ -6529,6 +6563,11 @@
                 "symfony/validator": "For using the user password constraint"
             },
             "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "5.0-dev"
+                }
+            },
             "autoload": {
                 "psr-4": {
                     "Symfony\\Component\\Security\\Core\\": ""
@@ -6570,11 +6609,7 @@
                     "type": "tidelift"
                 }
             ],
-<<<<<<< HEAD
             "time": "2020-06-25T09:01:55+00:00"
-=======
-            "time": "2021-01-27T12:50:07+00:00"
->>>>>>> cf7480ebee2e9915fc8075301586756e2be22f53
         },
         {
             "name": "symfony/security-csrf",
@@ -6654,7 +6689,6 @@
         },
         {
             "name": "symfony/security-guard",
-<<<<<<< HEAD
             "version": "v5.0.11",
             "source": {
                 "type": "git",
@@ -6665,33 +6699,22 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/security-guard/zipball/4d920d91fa44be8ebfe1a101dadde48181d8a4fb",
                 "reference": "4d920d91fa44be8ebfe1a101dadde48181d8a4fb",
-=======
-            "version": "v5.2.12",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/security-guard.git",
-                "reference": "9edddb0b4c97eb923ba9910050be80f539933c3b"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/security-guard/zipball/9edddb0b4c97eb923ba9910050be80f539933c3b",
-                "reference": "9edddb0b4c97eb923ba9910050be80f539933c3b",
->>>>>>> cf7480ebee2e9915fc8075301586756e2be22f53
                 "shasum": ""
             },
             "require": {
                 "php": ">=7.2.5",
-<<<<<<< HEAD
-=======
-                "symfony/polyfill-php80": "^1.15",
->>>>>>> cf7480ebee2e9915fc8075301586756e2be22f53
                 "symfony/security-core": "^5.0",
                 "symfony/security-http": "^4.4.1|^5.0.1"
             },
             "require-dev": {
-                "psr/log": "^1|^2|^3"
+                "psr/log": "~1.0"
             },
             "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "5.0-dev"
+                }
+            },
             "autoload": {
                 "psr-4": {
                     "Symfony\\Component\\Security\\Guard\\": ""
@@ -6733,7 +6756,6 @@
                     "type": "tidelift"
                 }
             ],
-<<<<<<< HEAD
             "time": "2020-05-20T17:38:26+00:00"
         },
         {
@@ -6748,38 +6770,16 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/security-http/zipball/e18913e3663dde1d4712c921211d12185c323c6e",
                 "reference": "e18913e3663dde1d4712c921211d12185c323c6e",
-=======
-            "time": "2021-07-18T15:21:43+00:00"
-        },
-        {
-            "name": "symfony/security-http",
-            "version": "v5.1.11",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/security-http.git",
-                "reference": "c3a869cc01640d14ebbbfd03046f494103ffb2fa"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/security-http/zipball/c3a869cc01640d14ebbbfd03046f494103ffb2fa",
-                "reference": "c3a869cc01640d14ebbbfd03046f494103ffb2fa",
->>>>>>> cf7480ebee2e9915fc8075301586756e2be22f53
                 "shasum": ""
             },
             "require": {
                 "php": ">=7.2.5",
-<<<<<<< HEAD
-=======
-                "symfony/deprecation-contracts": "^2.1",
->>>>>>> cf7480ebee2e9915fc8075301586756e2be22f53
                 "symfony/http-foundation": "^4.4.7|^5.0.7",
                 "symfony/http-kernel": "^4.4|^5.0",
-                "symfony/polyfill-php80": "^1.15",
                 "symfony/property-access": "^4.4|^5.0",
-                "symfony/security-core": "^5.1"
+                "symfony/security-core": "^4.4.8|^5.0.8"
             },
             "conflict": {
-                "symfony/event-dispatcher": "<4.3",
                 "symfony/security-csrf": "<4.4"
             },
             "require-dev": {
@@ -6792,6 +6792,11 @@
                 "symfony/security-csrf": "For using tokens to protect authentication/logout attempts"
             },
             "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "5.0-dev"
+                }
+            },
             "autoload": {
                 "psr-4": {
                     "Symfony\\Component\\Security\\Http\\": ""
@@ -6833,11 +6838,7 @@
                     "type": "tidelift"
                 }
             ],
-<<<<<<< HEAD
             "time": "2020-05-28T12:17:48+00:00"
-=======
-            "time": "2021-01-27T11:17:55+00:00"
->>>>>>> cf7480ebee2e9915fc8075301586756e2be22f53
         },
         {
             "name": "symfony/serializer",
@@ -7002,12 +7003,9 @@
                 "interoperability",
                 "standards"
             ],
-<<<<<<< HEAD
             "support": {
                 "source": "https://github.com/symfony/service-contracts/tree/v2.5.0"
             },
-=======
->>>>>>> cf7480ebee2e9915fc8075301586756e2be22f53
             "funding": [
                 {
                     "url": "https://symfony.com/sponsor",

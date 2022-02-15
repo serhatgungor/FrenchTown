@@ -31,6 +31,7 @@
         "symfony/process": "5.0.*",
         "symfony/property-access": "5.0.*",
         "symfony/property-info": "5.0.*",
+        "symfony/proxy-manager-bridge": "5.0.*",
         "symfony/security-bundle": "5.0.*",
         "symfony/serializer": "5.0.*",
         "symfony/string": "5.0.*",
